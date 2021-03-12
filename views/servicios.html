@@ -47,24 +47,26 @@
 
                 </div>
                 <div class="row text-center">
-                    <a href="#serviciosCelulares" class="col-lg-4 col-sm-12 text-uppercase serviciosIndexImg serviciosIndexBox nav-link js-scroll-trigger">
+                    <a href="#serviciosCelulares" class="col-lg-4 col-sm-12 text-uppercase serviciosIndexImg serviciosIndexBox nav-link js-scroll-trigger" id="serviciosBotonCelulares">
                         <h3 class="serviciosIndexTitulos">Celulares</h3>
                         <img src="../assets/img/servicios/phonesection.jpg">
                     </a>
-                    <a href="#serviciosComputadoras" class="col-lg-4 col-sm-12 text-uppercase serviciosIndexImg serviciosIndexBox nav-link js-scroll-trigger">
+                    <a href="#serviciosComputadoras" class="col-lg-4 col-sm-12 text-uppercase serviciosIndexImg serviciosIndexBox nav-link js-scroll-trigger" id="serviciosBotonComputadoras">
                         <h3 class="serviciosIndexTitulos">Computadoras</h3>
                         <img src="../assets/img/servicios/pcsection.jpg">
                     </a>
-                    <a href="#serviciosOtros" class="col-lg-4 col-sm-12 text-uppercase serviciosIndexImg serviciosIndexBox nav-link js-scroll-trigger">
+                    <a href="#serviciosOtros" class="col-lg-4 col-sm-12 text-uppercase serviciosIndexImg serviciosIndexBox nav-link js-scroll-trigger" id="serviciosBotonOtros">
                         <h3 class="serviciosIndexTitulos">Otros</h3>
                         <img src="../assets/img/servicios/otherssection.jpg">
                     </a>
                 </div>
-                <div class="text-center serviciosTitulosMargin" id="serviciosCelulares"><!--CELULARES-->
-                    <h3 class="text-uppercase serviciosSubTitulos">Celulares</h3>
+                <div class="row serviciosRowCelulares">
+                    <div class="text-center serviciosTitulosMargin col" id="serviciosCelulares"><!--CELULARES-->
+                        <h3 class="text-uppercase serviciosSubTitulos">Celulares</h3>
+                    </div>
                 </div>
                         
-                <div class="row">
+                <div class="row serviciosRowCelulares">
                     <div class="col-lg-4 col-sm-6 mb-4">
                         <div class="portfolio-item">
                             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
@@ -150,9 +152,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                <!--BANNER-->
-	                <div class="col-12 serviciosBanners">
+                <div class="row serviciosRowCelulares">
+                <!--BANNER 1-->
+	                <div class="col-12 serviciosBanners d-none d-lg-block d-xl-block">
 	                	<div class="serviciosBannersText">
 	                    	<div class="serviciosBannersTextTitulo">Los errores ocurren, siempre estamos dispuestos a repararlos por usted. </div>
 	                    	<div class="serviciosBannersTextSub">
@@ -184,11 +186,14 @@
 	                    <img class="serviciosBannersImg" src="../assets/img/servicios/phonesectionbanner.jpg" alt="" />
 	                </div>
                 </div>
-                        <!--COMPUTADORAS-->
-                    <div class="text-center serviciosTitulosMargin" id="serviciosComputadoras">
+                <!--COMPUTADORAS-->
+                <div class="row serviciosRowComputadoras">
+                    <div class="text-center serviciosTitulosMargin col" id="serviciosComputadoras">
                         <h3 class="text-uppercase serviciosSubTitulos">Computadoras</h3>
                     </div>
-                <div class="row">
+                 </div>
+                    
+                <div class="row serviciosRowComputadoras">
                     <div class="col-lg-4 col-sm-6 mb-4">
                         <div class="portfolio-item">
                             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal7">
@@ -274,9 +279,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                <!--BANNER-->
-	                <div class="col-12 serviciosBanners">
+                <div class="row serviciosRowComputadoras">
+                <!--BANNER 2-->
+	                <div class="col-12 serviciosBanners d-none d-lg-block d-xl-block">
 	                	<div class="serviciosBannersText">
 		                    <div class="serviciosBannersTextTitulo">Consulte por nuestro servicio de mantenimiento completo.</div>
 		                    <div class="serviciosBannersTextSub">
@@ -296,11 +301,13 @@
 	                    <img class="serviciosBannersImg" src="../assets/img/servicios/pcsectionbanner.jpg" alt="" />
 	                </div>
                 </div>
-                         <!--OTROS-->
-                    <div class="text-center serviciosTitulosMargin" id="serviciosOtros">
-                        <h3 class="text-uppercase serviciosSubTitulos">OTROS</h3>
-                    </div>
-                <div class="row">
+                <!--OTROS-->
+                <div class="row serviciosRowOtros">
+                   <div class="text-center serviciosTitulosMargin col" id="serviciosOtros">
+                       <h3 class="text-uppercase serviciosSubTitulos">OTROS</h3>
+                   </div>
+                </div>
+                <div class="row serviciosRowOtros">
                     <div class="col-lg-4 col-sm-6 mb-4">
                         <div class="portfolio-item">
                             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal13">
@@ -370,7 +377,8 @@
         <!-- Contact form JS-->
         <script src="../assets/mail/jqBootstrapValidation.js"></script>
         <script src="../assets/mail/contact_me.js"></script>
-        <!-- Core theme JS-->
+        <!-- Core theme JS--><!-- JavaScript-->
+        <script src="../js/scriptTiendaShow.js"></script>
         <script src="../js/scripts.js"></script>
 	</footer>
     <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
