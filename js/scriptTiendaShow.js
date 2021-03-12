@@ -86,3 +86,22 @@ $("#tiendaDOAcc").on('click', function() {
    $(".tiendaDOPen,.tiendaDORem,.tiendaDOPar").hide();
    $(".tiendaDOAcc").fadeIn();
 });
+/*!SCRIPT SERVICIOS*/
+/*
+serviciosRowCelulares
+serviciosRowComputadoras
+serviciosRowOtros
+*/
+
+$("#serviciosBotonCelulares").on('click', function() {
+   $(".serviciosRowComputadoras,.serviciosRowOtros").hide();
+   $(".serviciosRowCelulares").fadeIn();
+});
+$("#serviciosBotonComputadoras").on('click', function() {
+   $(".serviciosRowCelulares,.serviciosRowOtros").hide();
+   $(".serviciosRowComputadoras").fadeIn();
+});
+$("#serviciosBotonOtros").on('click', function() {
+   $(".serviciosRowCelulares,.serviciosRowComputadoras").hide();
+   $(".serviciosRowOtros").fadeIn();
+});
