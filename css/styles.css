@@ -8202,7 +8202,8 @@ section#contact form#contactForm :-ms-input-placeholder {
 .indexModalVisitar {
   color: black;
   left: 75%;
-  position: fixed; }
+  position: fixed;
+  z-index: 10; }
 
 .tiendaBotonesImg img {
   width: 6vw; }
@@ -8251,6 +8252,9 @@ section#contact form#contactForm :-ms-input-placeholder {
 .tiendaDOAcc = otros accesorios
 
 .tiendaDR =  repuestos main
+.tiendaDRR =  resistencias
+.tiendaDRC =  capacitores
+.tiendaDRB =  botones
 
 */
 .tiendaDisplayRowStart {

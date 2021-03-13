@@ -47,67 +47,118 @@
         <div class="container-fluid menuTiendaNav">
                 <div class="container">
                     <div class="row" id="menuTienda">
-                        <div class="col-3" id="menuTiendaCelulares">
+                        <div class="col-3 d-none d-lg-block d-xl-block " id="menuTiendaCelulares">
                             <a class="btn js-scroll-trigger tiendaBotonesImg">
                                 <img src="../assets/img/tienda/icons/tiendaIconoCelulares.png">
                                 Celulares
                             </a>
                         </div>
-                        <div class="col-3" id="menuTiendaComputadoras">
+                        <div class="col-3 dropdown d-lg-none d-xl-none" id="menuTiendaCelularesMob">
+                            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Celulares
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" id="tiendaSubDCVerTodoMob">Ver todo</a>
+                                <a class="dropdown-item" id="tiendaSubDCVMob">Vidrios</a>
+                                <a class="dropdown-item" id="tiendaSubDCFMob">Fundas</a>
+                                <a class="dropdown-item" id="tiendaSubDCCMob">Cargadores</a>
+                                <a class="dropdown-item" id="tiendaSubDCBMob">Baterias</a>
+                                <a class="dropdown-item" id="tiendaSubDCAurMob">Audifonos</a>
+                                <a class="dropdown-item" id="tiendaSubDCAccMob">Accesorios</a>
+                            </div>
+                        </div>
+                        <div class="col-3 d-none d-lg-block d-xl-block" id="menuTiendaComputadoras">
                             <a class="btn js-scroll-trigger tiendaBotonesImg">
                                 <img src="../assets/img/tienda/icons/tiendaIconoComputadoras.png">
                                 Computadoras
                             </a>
                         </div>
+                        <div class="col-3 dropdown d-lg-none d-xl-none" id="menuTiendaCelularesMob">
+                            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Computadoras
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" id="tiendaSubDPcVerTodoMob">Ver todo</a>
+                                <a class="dropdown-item" id="tiendaSubDPcAurMob">Auriculares</a>
+                                <a class="dropdown-item" id="tiendaSubDPcCompMob">Componentes</a>
+                                <a class="dropdown-item" id="tiendaSubDPCJoyMob">Joystick</a>
+                                <a class="dropdown-item" id="tiendaSubDPCMousMob">Mouse</a>
+                                <a class="dropdown-item" id="tiendaSubDPCKeyMob">Teclados</a>
+                                <a class="dropdown-item" id="tiendaSubDPCOtherMob">Otros</a>
+                            </div>
+                        </div>
                             
-                        <div class="col-3" id="menuTiendaOtros">
+                        <div class="col-3 d-none d-lg-block d-xl-block" id="menuTiendaOtros">
                             <a class="btn js-scroll-trigger tiendaBotonesImg">
                                 <img src="../assets/img/tienda/icons/tiendaIconoOtros.png">
                                 Variedades
                             </a>
                         </div>
-                        <div class="col-3" id="menuTiendaRepuestos">
+                        <div class="col-3 dropdown d-lg-none d-xl-none" id="menuTiendaCelularesMob">
+                            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Variedades
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" id="tiendaSubDOVerTodoMob">Ver todo</a>
+                                <a class="dropdown-item" id="tiendaDOPenMob">Pendrives</a>
+                                <a class="dropdown-item" id="tiendaDORemMob">Controles remotos</a>
+                                <a class="dropdown-item" id="tiendaDOParMob">Parlantes multimedia</a>
+                                <a class="dropdown-item" id="tiendaDOAccMob">Accesorios</a>
+                            </div>
+                        </div>
+                        <div class="col-3 d-none d-lg-block d-xl-block" id="menuTiendaRepuestos" id="menuTiendaRepuestos">
                             <a class="btn js-scroll-trigger tiendaBotonesImg">
                                 <img src="../assets/img/tienda/icons/tiendaIconoRepuestos.png">
                                 Repuestos
                             </a>
+                        </div>
+                        <div class="col-3 dropdown d-lg-none d-xl-none" id="menuTiendaCelularesMob">
+                            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Repuestos
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" id="tiendaSubDRVerTodoMob">Ver todo</a>
+                                <a class="dropdown-item" id="tiendaDRRMob">Resistencias</a>
+                                <a class="dropdown-item" id="tiendaDRCMob">Capacitores</a>
+                                <a class="dropdown-item" id="tiendaDRBMob">Botones</a>
+                            </div>
                         </div>
                     </div>
                     <div class="row" id="tiendaSeccionCelulares">
                         <div class="d-flex flex-wrap">
                             <div class="col-lg-2 col-sm-4 mb-4">
                                 <a class="btn js-scroll-trigger tiendaBotonesImgSub d-flex flex-column" id="tiendaSubDCF">
-                                    <img src="../assets/img/tienda/icons/tiendaCelularesFundas.png" class="mx-auto">
+                                    <img src="../assets/img/tienda/icons/tiendaCelularesFundas.png" class="mx-auto d-none d-lg-block d-xl-block">
                                     <div>Fundas</div>
                                 </a>
                             </div>
                             <div class="col-lg-2 col-sm-4 mb-4">
                                 <a class="btn js-scroll-trigger tiendaBotonesImgSub d-flex flex-column" id="tiendaSubDCV">
-                                    <img src="../assets/img/tienda/icons/tiendaCelularesVidrios.png" class="mx-auto">
+                                    <img src="../assets/img/tienda/icons/tiendaCelularesVidrios.png" class="mx-auto d-none d-lg-block d-xl-block">
                                     <div>Vidrios</div>
                                 </a>
                             </div>
                             <div class="col-lg-2 col-sm-4 mb-4">
                                 <a class="btn js-scroll-trigger tiendaBotonesImgSub d-flex flex-column" id="tiendaSubDCC">
-                                    <img src="../assets/img/tienda/icons/tiendaCelularesCargadores.png" class="mx-auto">
+                                    <img src="../assets/img/tienda/icons/tiendaCelularesCargadores.png" class="mx-auto d-none d-lg-block d-xl-block">
                                     <div>Cargadores</div>
                                 </a>
                             </div>
                             <div class="col-lg-2 col-sm-4 mb-4">
                                 <a class="btn js-scroll-trigger tiendaBotonesImgSub d-flex flex-column" id="tiendaSubDCB">
-                                    <img src="../assets/img/tienda/icons/tiendaCelularesBateria.png" class="mx-auto">
+                                    <img src="../assets/img/tienda/icons/tiendaCelularesBateria.png" class="mx-auto d-none d-lg-block d-xl-block">
                                     <div>Baterias</div>
                                 </a>
                             </div>
                             <div class="col-lg-2 col-sm-4 mb-4">
                                 <a class="btn js-scroll-trigger tiendaBotonesImgSub d-flex flex-column" id="tiendaSubDCAur">
-                                    <img src="../assets/img/tienda/icons/tiendaCelularesAudifonos.png" class="mx-auto">
+                                    <img src="../assets/img/tienda/icons/tiendaCelularesAudifonos.png" class="mx-auto d-none d-lg-block d-xl-block">
                                     <div>Audifonos</div>
                                 </a>
                             </div>
                             <div class="col-lg-2 col-sm-4 mb-4">
                                 <a class="btn js-scroll-trigger tiendaBotonesImgSub d-flex flex-column" id="tiendaSubDCAcc">
-                                    <img src="../assets/img/tienda/icons/tiendaCelularesAccesorios.png" class="mx-auto">
+                                    <img src="../assets/img/tienda/icons/tiendaCelularesAccesorios.png" class="mx-auto d-none d-lg-block d-xl-block">
                                     <div>Accesorios</div>
                                 </a>
                             </div>
@@ -117,37 +168,37 @@
                          <div class="d-flex flex-wrap">
                             <div class="col-lg-2 col-sm-4 mb-4">
                                 <a class="btn js-scroll-trigger tiendaBotonesImgSub d-flex flex-column" id="tiendaDPCAur">
-                                    <img src="../assets/img/tienda/icons/tiendaPcAuriculares.png" class="mx-auto">
+                                    <img src="../assets/img/tienda/icons/tiendaPcAuriculares.png" class="mx-auto d-none d-lg-block d-xl-block">
                                     <div>Auriculares</div>
                                 </a>
                             </div>
                             <div class="col-lg-2 col-sm-4 mb-4">
                                 <a class="btn js-scroll-trigger tiendaBotonesImgSub d-flex flex-column" id="tiendaDPCComp">
-                                    <img src="../assets/img/tienda/icons/tiendaPcCooler.png" class="mx-auto">
+                                    <img src="../assets/img/tienda/icons/tiendaPcCooler.png" class="mx-auto d-none d-lg-block d-xl-block">
                                     <div>Componentes</div>
                                 </a>
                             </div>
                             <div class="col-lg-2 col-sm-4 mb-4">
                                 <a class="btn js-scroll-trigger tiendaBotonesImgSub d-flex flex-column" id="tiendaDPCJoy">
-                                    <img src="../assets/img/tienda/icons/tiendaPcJoystick.png" class="mx-auto">
+                                    <img src="../assets/img/tienda/icons/tiendaPcJoystick.png" class="mx-auto d-none d-lg-block d-xl-block">
                                     <div>Joysticks</div>
                                 </a>
                             </div>
                             <div class="col-lg-2 col-sm-4 mb-4">
                                 <a class="btn js-scroll-trigger tiendaBotonesImgSub d-flex flex-column" id="tiendaDPCMous">
-                                    <img src="../assets/img/tienda/icons/tiendaPcMouse.png" class="mx-auto">
+                                    <img src="../assets/img/tienda/icons/tiendaPcMouse.png" class="mx-auto d-none d-lg-block d-xl-block">
                                     <div>Mouse</div>
                                 </a>
                             </div>
                             <div class="col-lg-2 col-sm-4 mb-4">
                                 <a class="btn js-scroll-trigger tiendaBotonesImgSub d-flex flex-column" id="tiendaDPCKey">
-                                    <img src="../assets/img/tienda/icons/tiendaPcTeclado.png" class="mx-auto">
+                                    <img src="../assets/img/tienda/icons/tiendaPcTeclado.png" class="mx-auto d-none d-lg-block d-xl-block">
                                     <div>Teclado</div>
                                 </a>
                             </div>
                             <div class="col-lg-2 col-sm-4 mb-4">
                                 <a class="btn js-scroll-trigger tiendaBotonesImgSub d-flex flex-column" id="tiendaDPCOther">
-                                    <img src="../assets/img/tienda/icons/tiendaNotebookFunda.png" class="mx-auto">
+                                    <img src="../assets/img/tienda/icons/tiendaNotebookFunda.png" class="mx-auto d-none d-lg-block d-xl-block">
                                     <div>Otros</div>
                                 </a>
                             </div>
@@ -157,25 +208,25 @@
                          <div class="d-flex flex-wrap justify-content-center">
                             <div class="col-lg-2 col-sm-4 mb-4">
                                 <a class="btn js-scroll-trigger tiendaBotonesImgSub d-flex flex-column" id="tiendaDOPen">
-                                    <img src="../assets/img/tienda/icons/tiendaPcTarjetaSD.png" class="mx-auto">
+                                    <img src="../assets/img/tienda/icons/tiendaPcTarjetaSD.png" class="mx-auto d-none d-lg-block d-xl-block">
                                     <div>Pendrives y memorias</div>
                                 </a>
                             </div>
                             <div class="col-lg-2 col-sm-4 mb-4">
                                 <a class="btn js-scroll-trigger tiendaBotonesImgSub d-flex flex-column" id="tiendaDORem">
-                                    <img src="../assets/img/tienda/icons/tiendaOtrosControles.png" class="mx-auto">
+                                    <img src="../assets/img/tienda/icons/tiendaOtrosControles.png" class="mx-auto d-none d-lg-block d-xl-block">
                                     <div>Controles Remotos</div>
                                 </a>
                             </div>
                             <div class="col-lg-2 col-sm-4 mb-4">
                                 <a class="btn js-scroll-trigger tiendaBotonesImgSub d-flex flex-column" id="tiendaDOPar">
-                                    <img src="../assets/img/tienda/icons/tiendaIconoSpeakers.png" class="mx-auto">
+                                    <img src="../assets/img/tienda/icons/tiendaIconoSpeakers.png" class="mx-auto d-none d-lg-block d-xl-block">
                                     <div>Parlantes multimedia</div>
                                 </a>
                             </div>
                             <div class="col-lg-2 col-sm-4 mb-4">
                                 <a class="btn js-scroll-trigger tiendaBotonesImgSub d-flex flex-column" id="tiendaDOAcc">
-                                    <img src="../assets/img/tienda/icons/tiendaCelularesAccesorios.png" class="mx-auto">
+                                    <img src="../assets/img/tienda/icons/tiendaCelularesAccesorios.png" class="mx-auto d-none d-lg-block d-xl-block">
                                     <div>Accesorios</div>
                                 </a>
                             </div>
@@ -184,20 +235,20 @@
                     <div class="row" id="tiendaSeccionRepuestos">
                          <div class="d-flex flex-wrap justify-content-center">
                             <div class="col-lg-2 col-sm-4 mb-4">
-                                <a class="btn js-scroll-trigger tiendaBotonesImgSub d-flex flex-column">
-                                    <img src="../assets/img/tienda/icons/tiendaRepuestosResistencia.png" class="mx-auto">
+                                <a class="btn js-scroll-trigger tiendaBotonesImgSub d-flex flex-column" id="tiendaDRR">
+                                    <img src="../assets/img/tienda/icons/tiendaRepuestosResistencia.png" class="mx-auto d-none d-lg-block d-xl-block">
                                     <div>Resistencias</div>
                                 </a>
                             </div>
                             <div class="col-lg-2 col-sm-4 mb-4">
-                                <a class="btn js-scroll-trigger tiendaBotonesImgSub d-flex flex-column">
-                                    <img src="../assets/img/tienda/icons/tiendaRepuestosCapacitor.png" class="mx-auto">
+                                <a class="btn js-scroll-trigger tiendaBotonesImgSub d-flex flex-column" id="tiendaDRC">
+                                    <img src="../assets/img/tienda/icons/tiendaRepuestosCapacitor.png" class="mx-auto d-none d-lg-block d-xl-block">
                                     <div>Capacitores</div>
                                 </a>
                             </div>
                             <div class="col-lg-2 col-sm-4 mb-4">
-                                <a class="btn js-scroll-trigger tiendaBotonesImgSub d-flex flex-column">
-                                    <img src="../assets/img/tienda/icons/tiendaRepuestosBoton.png" class="mx-auto">
+                                <a class="btn js-scroll-trigger tiendaBotonesImgSub d-flex flex-column" id="tiendaDRB">
+                                    <img src="../assets/img/tienda/icons/tiendaRepuestosBoton.png" class="mx-auto d-none d-lg-block d-xl-block">
                                     <div>Botones</div>
                                 </a>
                             </div>
@@ -1352,14 +1403,15 @@
                                 </div>
                             </div>
                         </div>
-                    <div class="row" id="tiendaDR">
-                        <div class="tiendaDisplayBoxes col-lg-4 tiendaDR">
+                    </div>
+                    <div class="row tiendaDR">
+                        <div class="tiendaDisplayBoxes col-lg-4 tiendaDRR">
                             <div>
-                                <img class="img-fluid" src="../assets/img/tienda/otroAcc05.jpg" alt="" />
+                                <img class="img-fluid" src="../assets/img/tienda/resistencias01.jpg" alt="" />
                                 <div class="portfolio-caption">
                                     <div class="portfolio-caption-heading">Resistencias</div>
                                     <div class="d-flex justify-content-between">
-                                        <div class="portfolio-caption-subheading text-muted">$350</div>
+                                        <div class="portfolio-caption-subheading text-muted"></div>
                                         <a class="btn btn-success" href="../index.html#contac" role="button" aria-expanded="false">
                                             Contactanos
                                         </a>
@@ -1367,7 +1419,76 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                        <div class="tiendaDisplayBoxes col-lg-4 tiendaDRC">
+                            <div>
+                                <img class="img-fluid" src="../assets/img/tienda/capacitores01.jpg" alt="" />
+                                <div class="portfolio-caption">
+                                    <div class="portfolio-caption-heading">Capacitores</div>
+                                    <div class="d-flex justify-content-between">
+                                        <div class="portfolio-caption-subheading text-muted"></div>
+                                        <a class="btn btn-success" href="../index.html#contac" role="button" aria-expanded="false">
+                                            Contactanos
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tiendaDisplayBoxes col-lg-4 tiendaDRB">
+                            <div>
+                                <img class="img-fluid" src="../assets/img/tienda/boton01.jpg" alt="" />
+                                <div class="portfolio-caption">
+                                    <div class="portfolio-caption-heading">Boton pulsador</div>
+                                    <div class="d-flex justify-content-between">
+                                        <div class="portfolio-caption-subheading text-muted"></div>
+                                        <a class="btn btn-success" href="../index.html#contac" role="button" aria-expanded="false">
+                                            Contactanos
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tiendaDisplayBoxes col-lg-4 tiendaDRB">
+                            <div>
+                                <img class="img-fluid" src="../assets/img/tienda/boton02.jpg" alt="" />
+                                <div class="portfolio-caption">
+                                    <div class="portfolio-caption-heading">Boton switch mini</div>
+                                    <div class="d-flex justify-content-between">
+                                        <div class="portfolio-caption-subheading text-muted"></div>
+                                        <a class="btn btn-success" href="../index.html#contac" role="button" aria-expanded="false">
+                                            Contactanos
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tiendaDisplayBoxes col-lg-4 tiendaDRB">
+                            <div>
+                                <img class="img-fluid" src="../assets/img/tienda/boton03.jpg" alt="" />
+                                <div class="portfolio-caption">
+                                    <div class="portfolio-caption-heading">Pulsador con retencion</div>
+                                    <div class="d-flex justify-content-between">
+                                        <div class="portfolio-caption-subheading text-muted"></div>
+                                        <a class="btn btn-success" href="../index.html#contac" role="button" aria-expanded="false">
+                                            Contactanos
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tiendaDisplayBoxes col-lg-4 tiendaDRB">
+                            <div>
+                                <img class="img-fluid" src="../assets/img/tienda/boton04.jpg" alt="" />
+                                <div class="portfolio-caption">
+                                    <div class="portfolio-caption-heading">Switch</div>
+                                    <div class="d-flex justify-content-between">
+                                        <div class="portfolio-caption-subheading text-muted"></div>
+                                        <a class="btn btn-success" href="../index.html#contac" role="button" aria-expanded="false">
+                                            Contactanos
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
             </div>
         </section>
         <footer class="footer py-4">
