@@ -8344,4 +8344,5 @@ header.mastheadTienda .masthead-heading {
 
 .tiendaBotonesNavMobile {
   margin-top: 0.5rem;
-  font-size: 0.7rem; }
+  height: 2rem;
+  font-size: 0.6rem; }
