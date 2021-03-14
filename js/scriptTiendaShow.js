@@ -205,16 +205,19 @@ serviciosRowCelulares
 serviciosRowComputadoras
 serviciosRowOtros
 */
-
+$("#serviciosBoxesHide").hide();
 $("#serviciosBotonCelulares").on('click', function() {
    $(".serviciosRowComputadoras,.serviciosRowOtros").hide();
-   $(".serviciosRowCelulares").fadeIn();
+   $(".serviciosRowCelulares,#serviciosBoxesHide").fadeIn();
 });
 $("#serviciosBotonComputadoras").on('click', function() {
    $(".serviciosRowCelulares,.serviciosRowOtros").hide();
-   $(".serviciosRowComputadoras").fadeIn();
+   $(".serviciosRowComputadoras,#serviciosBoxesHide").fadeIn();
 });
 $("#serviciosBotonOtros").on('click', function() {
    $(".serviciosRowCelulares,.serviciosRowComputadoras").hide();
-   $(".serviciosRowOtros").fadeIn();
+   $(".serviciosRowOtros,#serviciosBoxesHide").fadeIn();
+});
+$("#serviciosBotonInicioBtn").on('click', function() {
+   $("#serviciosBoxesHide").hide();
 });

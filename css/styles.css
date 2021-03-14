@@ -8329,3 +8329,15 @@ header.mastheadTienda .masthead-heading {
   justify-content: center;
   padding: 0;
   border-radius: 100%; }
+
+.serviciosBotonInicio {
+  z-index: 5;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 5rem; }
+
+.tiendaBotonModalContacto {
+  width: 300px; }
+
+.tiendaBotonModalContactoMob {
+  height: 180px; }
