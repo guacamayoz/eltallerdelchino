@@ -8262,6 +8262,11 @@ section#contact form#contactForm :-ms-input-placeholder {
   text-align: center;
   margin: 2vw; }
 
+.tiendaDisplayRowStartMob {
+  font-size: 2rem;
+  text-align: center;
+  margin: 2vw; }
+
 .menuTiendaNav {
   background-color: #f8f9fa;
   z-index: 5;
